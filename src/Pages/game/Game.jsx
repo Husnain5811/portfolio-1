@@ -3,11 +3,11 @@ import Cardgame from '../../Components/Cardgame'
 const Game = () => {
   return (
     <>
-    <div className='w-[100] min-h-screen shadow-amber-300 shadow-2xl bg-yellow-400 rounded-bl-full bg-blur-3xl p-20'>
-        <Cardgame />
-    </div>
-    
-       
+      <div className='w-full h-screen flex justify-center items-center p-20 bg-yellow-400'>
+        <Cardgame className='w-full h-full max-w-6xl' />
+      </div>
+
+
     </>
   )
 }
