@@ -1,0 +1,41 @@
+@keyframes slow-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-60vh); /* Bounce up to 50% of the container height */
+  }
+}
+
+.animate-bounce-1 {
+  animation: slow-bounce 3s infinite; /* Slower bounce with 3 seconds duration */
+}
+
+.animate-bounce-2 {
+  animation: slow-bounce 3s infinite;
+  animation-delay: 0.3s; /* Delay for sequential bounce */
+}
+
+.animate-bounce-3 {
+  animation: slow-bounce 3s infinite;
+  animation-delay: 0.6s;
+}
+
+.animate-bounce-4 {
+  animation: slow-bounce 3s infinite;
+  animation-delay: 0.9s;
+}
+
+.animate-bounce-5 {
+  animation: slow-bounce 3s infinite;
+  animation-delay: 1.2s;
+}
+
+.animate-bounce-6 {
+  animation: slow-bounce 3s infinite;
+  animation-delay: 1.5s;
+}
+.animate-bounce-7 {
+  animation: slow-bounce 3s infinite;
+  animation-delay: 1.7s;
+}
