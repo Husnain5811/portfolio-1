@@ -1,7 +1,7 @@
 import React from 'react'
-import Rotateball from '../../Components/Rotateball'
-import Left from '../About/Left.jsx'
-import Right from '../About/Right.jsx'
+import Rotateball from '../../Components/Rotateball.jsx'
+import Left from '../about/Left.jsx'
+import Right from '../about/Right.jsx'
 import Bubbles from '../../Components/Bubble.jsx'
 // #15001F
 const Second = () => {
