@@ -1,6 +1,7 @@
 
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,10 +11,10 @@ const Header = () => {
       <div className="max-w-screen-lg mx-auto gap-3 flex justify-between items-center">
         <h1 className="text-3xl share-tech"> &lt; Naino / Code &gt; </h1>
         <nav className="hidden md:flex space-x-8 share-tech">
-          <a href="/home" className="hover:text-gray-400">Home</a>
-          <a href="/about" className="hover:text-gray-400">About</a>
-          <a href="/projects" className="hover:text-gray-400">Projects</a>
-          <a href="/contact" className="hover:text-gray-400">Contact</a>
+          <Link to="/home" className="hover:text-gray-400">Home</Link>
+          <Link to="/about" className="hover:text-gray-400">About</Link>
+          <Link to="/projects" className="hover:text-gray-400">Projects</Link>
+          <Link to="/contact" className="hover:text-gray-400">Contact</Link>
         </nav>
         <button
           className="md:hidden flex items-center"
@@ -37,10 +38,10 @@ const Header = () => {
       </div>
       {isOpen && (
         <nav className="md:hidden bg-gray-800">
-          <a href="#home" className="block px-4 py-2 hover:bg-gray-700">Home</a>
-          <a href="#about" className="block px-4 py-2 hover:bg-gray-700">About</a>
-          <a href="#projects" className="block px-4 py-2 hover:bg-gray-700">Projects</a>
-          <a href="#contact" className="block px-4 py-2 hover:bg-gray-700">Contact</a>
+          <Link to="#home" className="block px-4 py-2 hover:bg-gray-700">Home</Link>
+          <Link to="#about" className="block px-4 py-2 hover:bg-gray-700">About</Link>
+          <Link to="#projects" className="block px-4 py-2 hover:bg-gray-700">Projects</Link>
+          <Link to="#contact" className="block px-4 py-2 hover:bg-gray-700">Contact</Link>
         </nav>
       )}
     </header>
