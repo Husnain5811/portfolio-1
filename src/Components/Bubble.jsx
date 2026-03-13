@@ -12,7 +12,7 @@ const Bubbles = () => {
 
     const minCount = 20;
     const maxCount = 60;
-    const minSize = 3;
+    const minSize = 7;
     const maxSize = 12;
 
     const count = minCount + Math.floor(Math.random() * (maxCount - minCount + 1));

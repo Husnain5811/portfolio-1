@@ -7,7 +7,7 @@ import Projects from '../projct/Projects.jsx'
 import Game from '../game/Game.jsx'
 import Footer from '../footer/Footer.jsx'
 import Contact from '../contact/Contact.jsx'
-import Bubbles from '../../Components/Bubble.jsx'
+
 
 
 const Hero = () => {
