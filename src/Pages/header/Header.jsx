@@ -11,9 +11,9 @@ const Header = () => {
       <div className="max-w-screen-lg mx-auto gap-3 flex justify-between items-center">
         <h1 className="text-3xl share-tech"> &lt; Naino / Code &gt; </h1>
         <nav className="hidden md:flex space-x-8 share-tech">
-          <Link to="/home" className="hover:text-gray-400">Home</Link>
+          <Link to="/" className="hover:text-gray-400">Home</Link>
           <Link to="/about" className="hover:text-gray-400">About</Link>
-          <Link to="/projects" className="hover:text-gray-400">Projects</Link>
+          <Link to="/project" className="hover:text-gray-400">Projects</Link>
           <Link to="/contact" className="hover:text-gray-400">Contact</Link>
         </nav>
         <button

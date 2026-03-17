@@ -10,9 +10,11 @@ const Right = () => {
 
         <p className='text-white mt-3 share-tech'>
           I am a MERN Stack Developer with experience in building modern and scalable web applications. I work with MongoDB, Express.js, React, and Node.js to develop full-stack solutions. I focus on creating responsive user interfaces and efficient backend APIs. I am passionate about learning new technologies and improving my development skills.
-           </p>
+        </p>
       </div>
-      <div className='mt-10 cursor-pointer '><Button /></div>
+      <div className='w-30 mt-10'>
+        <img src="/hand.png" alt="" />
+      </div>
     </div>
   )
 }

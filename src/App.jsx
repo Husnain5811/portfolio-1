@@ -1,12 +1,16 @@
 import React from 'react'
 import Hero from './Pages/hero/Hero'
+import { Routes, Route } from "react-router-dom";
+import ProjectPage from "./routes/ProjectPage";
+
 
 const App = () => {
   return (
-    <div>
-      <Hero/>
-    </div>
+    <Routes>
+      <Route path="/" element={<Hero />} />
+      <Route path="/project" element={<ProjectPage />} />
+    </Routes>
   )
 }
 
-export default App
+export default App;

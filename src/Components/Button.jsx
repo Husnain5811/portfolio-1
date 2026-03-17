@@ -2,9 +2,17 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Button = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/CV.pdf"; // Replace with the actual path to your CV file
+    link.download = "Resume.pdf"; // The name the downloaded file will have
+    link.click();
+  };
+
   return (
     <StyledWrapper>
-      <button  type="button" className="btn mt-5">
+      <button onClick={handleDownload} type="button" className="btn mt-5">
         <strong>HIRE ME</strong>
         <div id="container-stars">
           <div id="stars" />
